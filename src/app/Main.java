@@ -11,5 +11,25 @@ public class Main {
         TheaterLights lights = new TheaterLights("Theater Ceiling Lights");
         Screen screen = new Screen("Theater Screen");
         PopcornPopper popper = new PopcornPopper("Popcorn Popper");
+
+        HomeCinema cinema = new HomeCinema(
+                amp,
+                tuner,
+                dvd,
+                cd,
+                projector,
+                lights,
+                screen,
+                popper
+        );
+
+        cinema.playMovie("The Lord of The Rings: The Fellowship of the Ring");
+        cinema.stopMovie();
+
+        cinema.playMusic("Rick Astley - Never Gonna Give You Up");
+        cinema.stopMusic();
+
+        cinema.playRadio(133.7);
+        cinema.stopRadio();
     }
 }
