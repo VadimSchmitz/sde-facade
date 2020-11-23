@@ -10,7 +10,16 @@ public class HomeCinema {
     private Screen screen;
     private PopcornPopper popper;
     
-    public HomeCinema(Amplifier amp, Tuner tuner, DvdPlayer dvd, CdPlayer cd, Projector projector, TheaterLights lights, Screen screen, PopcornPopper popper) {
+    public HomeCinema(
+        Amplifier amp,
+        Tuner tuner,
+        DvdPlayer dvd,
+        CdPlayer cd,
+        Projector projector,
+        TheaterLights lights,
+        Screen screen,
+        PopcornPopper popper
+    ) {
         this.amp = amp;
         this.tuner = tuner;
         this.dvd = dvd;
